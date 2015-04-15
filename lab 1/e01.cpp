@@ -7,7 +7,7 @@
 #include <iostream>
 
 #ifdef _WIN32
-#include <GL/glew.h>
+#include "../librerie\include\GL/glew.h"
 #else
 #define GLFW_INCLUDE_GLCOREARB
 #define GL_GLEXT_PROTOTYPES
@@ -21,7 +21,7 @@
 #pragma comment(lib,"opengl32")
 #pragma comment(lib,"glew32")
 #pragma comment(lib,"glfw3")
-#endifco
+#endif
 
 static void error_callback(int error, const char* description)
 {
