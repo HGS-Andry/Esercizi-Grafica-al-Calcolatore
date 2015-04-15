@@ -13,7 +13,7 @@
 #define GL_GLEXT_PROTOTYPES
 #endif
 
-#include <GLFW/glfw3.h>
+#include "../librerie\include\GLFW/glfw3.h"
 
 #if defined(_MSC_VER)
 #pragma comment(lib,"user32")
@@ -21,7 +21,7 @@
 #pragma comment(lib,"opengl32")
 #pragma comment(lib,"glew32")
 #pragma comment(lib,"glfw3")
-#endif
+#endifco
 
 static void error_callback(int error, const char* description)
 {
