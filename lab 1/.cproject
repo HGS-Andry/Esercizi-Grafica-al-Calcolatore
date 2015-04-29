@@ -3,8 +3,37 @@
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="0.110680552">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.110680552" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<macros>
+					<stringListMacro name="Path" type="VALUE_TEXT_LIST">
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin/server"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/lib/amd64"/>
+						<value name="D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion"/>
+						<value name="C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common"/>
+						<value name="C:\ProgramData\Oracle\Java\javapath"/>
+						<value name="C:\Program Files (x86)\Intel\iCLS Client\"/>
+						<value name="C:\Program Files\Intel\iCLS Client\"/>
+						<value name="C:\WINDOWS\system32"/>
+						<value name="C:\WINDOWS"/>
+						<value name="C:\WINDOWS\System32\Wbem"/>
+						<value name="C:\WINDOWS\System32\WindowsPowerShell\v1.0\"/>
+						<value name="C:\Program Files (x86)\Windows Live\Shared"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\runtime\win64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\bin"/>
+						<value name="C:\MinGW\bin"/>
+						<value name="C:\Users\Andrea\AppData\Local\atom\bin"/>
+						<value name="D:\File installazione\Eclipse\eclipse-java-luna-SR1-win32-x86_64\eclipse"/>
+					</stringListMacro>
+				</macros>
 				<externalSettings/>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -17,7 +46,7 @@
 				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.110680552" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
 					<folderInfo id="0.110680552." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.996627302" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
-							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.996627302.749329304" name=""/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.PE" id="org.eclipse.cdt.build.core.prefbase.toolchain.996627302.749329304" name=""/>
 							<builder id="org.eclipse.cdt.build.core.settings.default.builder.1444195220" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.889440230" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs">
 								<option id="org.eclipse.cdt.build.core.settings.holder.libpaths.1109681852" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths">
@@ -38,7 +67,7 @@
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1901117065" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.726752862" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1819147385" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1819147385" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++\mingw32&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\lib\gcc\mingw32\4.8.1\include\c++\backward&quot;"/>
@@ -49,7 +78,7 @@
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1008161569" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.419627326" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
-								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1477481777" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1477481777" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\lib\gcc\mingw32\4.8.1\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\MinGW\lib\gcc\mingw32\4.8.1\include-fixed&quot;"/>
@@ -64,8 +93,37 @@
 		</cconfiguration>
 		<cconfiguration id="0.110680552.1227649111">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.110680552.1227649111" moduleId="org.eclipse.cdt.core.settings" name="C-c++ mingw">
+				<macros>
+					<stringListMacro name="Path" type="VALUE_TEXT_LIST">
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin/server"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/lib/amd64"/>
+						<value name="D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion"/>
+						<value name="C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common"/>
+						<value name="C:\ProgramData\Oracle\Java\javapath"/>
+						<value name="C:\Program Files (x86)\Intel\iCLS Client\"/>
+						<value name="C:\Program Files\Intel\iCLS Client\"/>
+						<value name="C:\WINDOWS\system32"/>
+						<value name="C:\WINDOWS"/>
+						<value name="C:\WINDOWS\System32\Wbem"/>
+						<value name="C:\WINDOWS\System32\WindowsPowerShell\v1.0\"/>
+						<value name="C:\Program Files (x86)\Windows Live\Shared"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\runtime\win64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\bin"/>
+						<value name="C:\MinGW\bin"/>
+						<value name="C:\Users\Andrea\AppData\Local\atom\bin"/>
+						<value name="D:\File installazione\Eclipse\eclipse-java-luna-SR1-win32-x86_64\eclipse"/>
+					</stringListMacro>
+				</macros>
 				<externalSettings/>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -78,7 +136,7 @@
 				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.110680552.1227649111" name="C-c++ mingw" parent="org.eclipse.cdt.build.core.prefbase.cfg">
 					<folderInfo id="0.110680552.1227649111." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1342931502" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
-							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1342931502.982598649" name=""/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.PE" id="org.eclipse.cdt.build.core.prefbase.toolchain.1342931502.982598649" name=""/>
 							<builder id="org.eclipse.cdt.build.core.settings.default.builder.546405991" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1167435068" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs">
 								<option id="org.eclipse.cdt.build.core.settings.holder.libpaths.543490545" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths"/>
@@ -115,8 +173,37 @@
 		</cconfiguration>
 		<cconfiguration id="0.110680552.1767510396">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.110680552.1767510396" moduleId="org.eclipse.cdt.core.settings" name="grafica al calcolatore">
+				<macros>
+					<stringListMacro name="Path" type="VALUE_TEXT_LIST">
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin/server"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/lib/amd64"/>
+						<value name="D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion"/>
+						<value name="C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common"/>
+						<value name="C:\ProgramData\Oracle\Java\javapath"/>
+						<value name="C:\Program Files (x86)\Intel\iCLS Client\"/>
+						<value name="C:\Program Files\Intel\iCLS Client\"/>
+						<value name="C:\WINDOWS\system32"/>
+						<value name="C:\WINDOWS"/>
+						<value name="C:\WINDOWS\System32\Wbem"/>
+						<value name="C:\WINDOWS\System32\WindowsPowerShell\v1.0\"/>
+						<value name="C:\Program Files (x86)\Windows Live\Shared"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\runtime\win64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\bin"/>
+						<value name="C:\MinGW\bin"/>
+						<value name="C:\Users\Andrea\AppData\Local\atom\bin"/>
+						<value name="D:\File installazione\Eclipse\eclipse-java-luna-SR1-win32-x86_64\eclipse"/>
+					</stringListMacro>
+				</macros>
 				<externalSettings/>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -129,7 +216,7 @@
 				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.110680552.1767510396" name="grafica al calcolatore" parent="org.eclipse.cdt.build.core.prefbase.cfg">
 					<folderInfo id="0.110680552.1767510396." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1633221473" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
-							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1633221473.243978604" name=""/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.PE" id="org.eclipse.cdt.build.core.prefbase.toolchain.1633221473.243978604" name=""/>
 							<builder id="org.eclipse.cdt.build.core.settings.default.builder.1380215961" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.579348628" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs">
 								<option id="org.eclipse.cdt.build.core.settings.holder.libpaths.727536813" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths">
@@ -176,8 +263,37 @@
 		</cconfiguration>
 		<cconfiguration id="0.110680552.1114741712">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.110680552.1114741712" moduleId="org.eclipse.cdt.core.settings" name="MinGW C C++">
+				<macros>
+					<stringListMacro name="Path" type="VALUE_TEXT_LIST">
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin/server"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/bin"/>
+						<value name="C:/Program Files/Java/jre1.8.0_31/lib/amd64"/>
+						<value name="D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion"/>
+						<value name="C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common"/>
+						<value name="C:\ProgramData\Oracle\Java\javapath"/>
+						<value name="C:\Program Files (x86)\Intel\iCLS Client\"/>
+						<value name="C:\Program Files\Intel\iCLS Client\"/>
+						<value name="C:\WINDOWS\system32"/>
+						<value name="C:\WINDOWS"/>
+						<value name="C:\WINDOWS\System32\Wbem"/>
+						<value name="C:\WINDOWS\System32\WindowsPowerShell\v1.0\"/>
+						<value name="C:\Program Files (x86)\Windows Live\Shared"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL"/>
+						<value name="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86"/>
+						<value name="C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\runtime\win64"/>
+						<value name="D:\Program Files\MATLAB\R2014b\bin"/>
+						<value name="C:\MinGW\bin"/>
+						<value name="C:\Users\Andrea\AppData\Local\atom\bin"/>
+						<value name="D:\File installazione\Eclipse\eclipse-java-luna-SR1-win32-x86_64\eclipse"/>
+					</stringListMacro>
+				</macros>
 				<externalSettings/>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -190,7 +306,7 @@
 				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.110680552.1114741712" name="MinGW C C++" parent="org.eclipse.cdt.build.core.prefbase.cfg">
 					<folderInfo id="0.110680552.1114741712." name="/" resourcePath="">
 						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1499712114" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
-							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1499712114.1477533389" name=""/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.PE" id="org.eclipse.cdt.build.core.prefbase.toolchain.1499712114.1477533389" name=""/>
 							<builder id="org.eclipse.cdt.build.core.settings.default.builder.118861670" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.263913793" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs">
 								<option id="org.eclipse.cdt.build.core.settings.holder.libpaths.495209346" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths">

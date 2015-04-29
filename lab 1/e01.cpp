@@ -6,14 +6,19 @@
 #include <cstdlib>
 #include <iostream>
 
+//Inclusioni temporaneee
+
+
 #ifdef _WIN32
 #include "../librerie\include\GL/glew.h"
+//#include <GL/glew.h>
 #else
 #define GLFW_INCLUDE_GLCOREARB
 #define GL_GLEXT_PROTOTYPES
 #endif
 
 #include "../librerie\include\GLFW/glfw3.h"
+//#include <GLFW/glfw3.h>
 
 #if defined(_MSC_VER)
 #pragma comment(lib,"user32")
