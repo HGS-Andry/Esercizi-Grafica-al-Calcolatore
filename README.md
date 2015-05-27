@@ -33,7 +33,7 @@ specificando nelle proprietà del progetto -> c/c++ -> general -> Additional Inc
 
 ####Librerie nella cartella di visual studio
  
-Nella cartella di installazione di visual studio es: `C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\` inseriamo i file e le cartelle dentro la cartella `librerie\include\` del progetto, mentre in `C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\` i file `.lib/.LIB`  della cartella `librerie\lib\include\`
+Nella cartella di installazione di visual studio es: `C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\` inseriamo i file e le cartelle dentro la cartella `librerie\include\` del progetto, mentre in `C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\` i file `.lib/.LIB` e i file `.obj` della cartella `librerie\lib\include\`
  
  
 Il file glew32.dll può essere inserito nella cartella di windows in `C:\Windows\System32`
